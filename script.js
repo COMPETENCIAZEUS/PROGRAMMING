@@ -150,7 +150,7 @@ Duración Total: 1-1.5 horas
     'ATRI51': {
         password: '222227001',
         content: {
-            'Semana 1 de 52 semanas - 262 días de trabajo': [
+            'Semana 4 de JULIO ': [
                 `Lunes:
 MUSCLE SNATCH + DROP SNATCH + OHS
 5x3.3.3
