@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrossFit Programming</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-container" class="container">
+        <h2>Welcome Back</h2>
+        <input type="text" id="username" placeholder="Username" class="input-field">
+        <input type="password" id="password" placeholder="Password" class="input-field">
+        <button onclick="login()" class="btn">Login</button>
+        <p id="error-message"></p>
+    </div>
+
+    <div id="content-container" class="container hidden">
+        <h1>Weekly CrossFit Programming</h1>
+        <div id="week-container">
+            <!-- Weeks and days will be dynamically generated here -->
+        </div>
+        <div id="exercise-description" class="description-container hidden"></div>
+        <button class="btn logout-btn" onclick="logout()">Logout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
